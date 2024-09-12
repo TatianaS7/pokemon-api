@@ -1,0 +1,11 @@
+nav {
+    /* background-color:  rgb(238, 238, 238); */
+    padding: 1em;
+    display: flex;
+    border-bottom: solid 1px rgb(130, 124, 124);
+}
+
+nav img {
+    height: 1em;
+}
+

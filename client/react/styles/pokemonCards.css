@@ -1,0 +1,22 @@
+#pokemon-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: 2em 4em;
+    gap: 2em;
+    height: 65vh;
+    overflow-y: auto;
+}
+
+.card-header {
+    text-align: center;
+    background-color: rgb(243, 210, 210);
+}
+
+.card {
+    height: 20em;
+}
+
+.card-header img {
+    height: 8em;
+    width: 8em;
+}
