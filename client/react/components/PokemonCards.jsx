@@ -65,8 +65,8 @@ function PokemonCards({ pokemonData, filteredPokemonData }) {
                         <div className="save">
                             <button className="save-button" onClick={() => handleSave(pokemon)}>
                                 {squad[pokemon.name] ? 
-                                <Star color={'#f0ed99'} height="30px" width="30px"/> 
-                                : <StarOutline color={'#00000'} height="30px" width="30px"/> }
+                                <Star color={'#f0ed99'} height="35px" width="35px"/> 
+                                : <StarOutline color={'#00000'} height="35px" width="35px"/> }
                             </button>
                         </div>
                     </div>
