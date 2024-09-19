@@ -13,10 +13,20 @@
 }
 
 .card {
-    height: 20em;
+    height: 21em;
 }
 
 .card-header img {
     height: 8em;
     width: 8em;
+}
+
+.save {
+    display: flex;
+    justify-content: right;
+}
+
+.save-button {
+    background: none;
+    border: none;
 }

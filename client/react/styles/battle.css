@@ -1,0 +1,35 @@
+#battle-btn, #reset-btn {
+    padding: 0.5em 2em;
+    font-size: 16pt
+}
+
+#squad-container {
+    position: relative;
+    margin-left: 1em;
+}
+
+#view-squad {
+    font-size: 14pt;
+    padding: 0.5em;
+    background: none;
+    border: none;
+}
+
+#view-squad:hover {
+    text-decoration: underline 1pt red;
+}
+
+#squad-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1em;
+    z-index: 1000;
+}
+
+#squad-container:hover #squad-list {
+    display: block;
+}
