@@ -15,7 +15,7 @@ function Battle() {
 
     return (
         <div style={{display: 'flex', justifyContent: 'center'}}>
-            {Object.keys(squad).length >= 2 && (
+            {Object.keys(squad).length >= 1 && (
                 <>
                 <div style={{display: 'flex', gap: '1em'}}>
                     <button id="battle-btn" className="btn btn-primary">Battle</button>

@@ -1,7 +1,8 @@
 {
   "name": "pokemon-api",
   "scripts": {
-    "client-dev": "PORT=5555 parcel client/index.html --open"
+    "client-dev": "PORT=5555 parcel client/index.html --open",
+    "cy:open": "cypress open"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
@@ -13,6 +14,8 @@
   },
   "devDependencies": {
     "buffer": "^6.0.3",
-    "process": "^0.11.10"
+    "cypress": "^13.15.0",
+    "process": "^0.11.10",
+    "webpack": "^5.95.0"
   }
 }
